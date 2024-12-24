@@ -917,147 +917,153 @@ export const announcementsData = [
 
 
 // YOU SHOULD CHANGE THE DATES OF THE EVENTS TO THE CURRENT DATE TO SEE THE EVENTS ON THE CALENDAR
+export const sampleEvents = [
+  {
+    title: "Sample Event",
+    allDay: false,
+    start: new Date(2024, 11, 9, 8, 0),
+    end: new Date(2024, 11, 9, 8, 45),
+  },
+];
+ 
 export const calendarEvents = [
   {
     title: "Math",
     allDay: false,
-    start: new Date(2024, 7, 12, 8, 0),
-    end: new Date(2024, 7, 12, 8, 45),
+    start: new Date(2024, 11, 9, 8, 0), // December 9, 2024, 8:00 AM
+    end: new Date(2024, 11, 9, 8, 45),  // December 9, 2024, 8:45 AM
   },
   {
     title: "English",
     allDay: false,
-    start: new Date(2024, 7, 12, 9, 0),
-    end: new Date(2024, 7, 12, 9, 45),
+    start: new Date(2024, 11, 9, 9, 0), // December 9, 2024, 9:00 AM
+    end: new Date(2024, 11, 9, 9, 45),  // December 9, 2024, 9:45 AM
   },
   {
     title: "Biology",
     allDay: false,
-    start: new Date(2024, 7, 12, 10, 0),
-    end: new Date(2024, 7, 12, 10, 45),
+    start: new Date(2024, 11, 9, 10, 0), // December 9, 2024, 10:00 AM
+    end: new Date(2024, 11, 9, 10, 45),  // December 9, 2024, 10:45 AM
   },
   {
     title: "Physics",
     allDay: false,
-    start: new Date(2024, 7, 12, 11, 0),
-    end: new Date(2024, 7, 12, 11, 45),
+    start: new Date(2024, 11, 9, 11, 0), // December 9, 2024, 11:00 AM
+    end: new Date(2024, 11, 9, 11, 45),  // December 9, 2024, 11:45 AM
   },
   {
     title: "Chemistry",
     allDay: false,
-    start: new Date(2024, 7, 12, 13, 0),
-    end: new Date(2024, 7, 12, 13, 45),
+    start: new Date(2024, 11, 9, 13, 0), // December 9, 2024, 1:00 PM
+    end: new Date(2024, 11, 9, 13, 45),  // December 9, 2024, 1:45 PM
   },
   {
     title: "History",
     allDay: false,
-    start: new Date(2024, 7, 12, 14, 0),
-    end: new Date(2024, 7, 12, 14, 45),
+    start: new Date(2024, 11, 9, 14, 0), // December 9, 2024, 2:00 PM
+    end: new Date(2024, 11, 9, 14, 45),  // December 9, 2024, 2:45 PM
   },
   {
     title: "English",
     allDay: false,
-    start: new Date(2024, 7, 13, 9, 0),
-    end: new Date(2024, 7, 13, 9, 45),
+    start: new Date(2024, 11, 10, 9, 0), // December 10, 2024, 9:00 AM
+    end: new Date(2024, 11, 10, 9, 45),  // December 10, 2024, 9:45 AM
   },
   {
     title: "Biology",
     allDay: false,
-    start: new Date(2024, 7, 13, 10, 0),
-    end: new Date(2024, 7, 13, 10, 45),
+    start: new Date(2024, 11, 10, 10, 0), // December 10, 2024, 10:00 AM
+    end: new Date(2024, 11, 10, 10, 45),  // December 10, 2024, 10:45 AM
   },
   {
     title: "Physics",
     allDay: false,
-    start: new Date(2024, 7, 13, 11, 0),
-    end: new Date(2024, 7, 13, 11, 45),
+    start: new Date(2024, 11, 10, 11, 0), // December 10, 2024, 11:00 AM
+    end: new Date(2024, 11, 10, 11, 45),  // December 10, 2024, 11:45 AM
   },
-
   {
     title: "History",
     allDay: false,
-    start: new Date(2024, 7, 13, 14, 0),
-    end: new Date(2024, 7, 13, 14, 45),
+    start: new Date(2024, 11, 10, 14, 0), // December 10, 2024, 2:00 PM
+    end: new Date(2024, 11, 10, 14, 45),  // December 10, 2024, 2:45 PM
   },
   {
     title: "Math",
     allDay: false,
-    start: new Date(2024, 7, 14, 8, 0),
-    end: new Date(2024, 7, 14, 8, 45),
+    start: new Date(2024, 11, 11, 8, 0), // December 11, 2024, 8:00 AM
+    end: new Date(2024, 11, 11, 8, 45),  // December 11, 2024, 8:45 AM
   },
   {
     title: "Biology",
     allDay: false,
-    start: new Date(2024, 7, 14, 10, 0),
-    end: new Date(2024, 7, 14, 10, 45),
+    start: new Date(2024, 11, 11, 10, 0), // December 11, 2024, 10:00 AM
+    end: new Date(2024, 11, 11, 10, 45),  // December 11, 2024, 10:45 AM
   },
-
   {
     title: "Chemistry",
     allDay: false,
-    start: new Date(2024, 7, 14, 13, 0),
-    end: new Date(2024, 7, 14, 13, 45),
+    start: new Date(2024, 11, 11, 13, 0), // December 11, 2024, 1:00 PM
+    end: new Date(2024, 11, 11, 13, 45),  // December 11, 2024, 1:45 PM
   },
   {
     title: "History",
     allDay: false,
-    start: new Date(2024, 7, 14, 14, 0),
-    end: new Date(2024, 7, 13, 14, 45),
+    start: new Date(2024, 11, 11, 14, 0), // December 11, 2024, 2:00 PM
+    end: new Date(2024, 11, 11, 14, 45),  // December 11, 2024, 2:45 PM
   },
   {
     title: "English",
     allDay: false,
-    start: new Date(2024, 7, 15, 9, 0),
-    end: new Date(2024, 7, 15, 9, 45),
+    start: new Date(2024, 11, 12, 9, 0), // December 12, 2024, 9:00 AM
+    end: new Date(2024, 11, 12, 9, 45),  // December 12, 2024, 9:45 AM
   },
   {
     title: "Biology",
     allDay: false,
-    start: new Date(2024, 7, 15, 10, 0),
-    end: new Date(2024, 7, 15, 10, 45),
+    start: new Date(2024, 11, 12, 10, 0), // December 12, 2024, 10:00 AM
+    end: new Date(2024, 11, 12, 10, 45),  // December 12, 2024, 10:45 AM
   },
   {
     title: "Physics",
     allDay: false,
-    start: new Date(2024, 7, 15, 11, 0),
-    end: new Date(2024, 7, 15, 11, 45),
+    start: new Date(2024, 11, 12, 11, 0), // December 12, 2024, 11:00 AM
+    end: new Date(2024, 11, 12, 11, 45),  // December 12, 2024, 11:45 AM
   },
-
   {
     title: "History",
     allDay: false,
-    start: new Date(2024, 7, 15, 14, 0),
-    end: new Date(2024, 7, 15, 14, 45),
+    start: new Date(2024, 11, 12, 14, 0), // December 12, 2024, 2:00 PM
+    end: new Date(2024, 11, 12, 14, 45),  // December 12, 2024, 2:45 PM
   },
   {
     title: "Math",
     allDay: false,
-    start: new Date(2024, 7, 16, 8, 0),
-    end: new Date(2024, 7, 16, 8, 45),
+    start: new Date(2024, 11, 13, 8, 0), // December 13, 2024, 8:00 AM
+    end: new Date(2024, 11, 13, 8, 45),  // December 13, 2024, 8:45 AM
   },
   {
     title: "English",
     allDay: false,
-    start: new Date(2024, 7, 16, 9, 0),
-    end: new Date(2024, 7, 16, 9, 45),
+    start: new Date(2024, 11, 13, 9, 0), // December 13, 2024, 9:00 AM
+    end: new Date(2024, 11, 13, 9, 45),  // December 13, 2024, 9:45 AM
   },
-
   {
     title: "Physics",
     allDay: false,
-    start: new Date(2024, 7, 16, 11, 0),
-    end: new Date(2024, 7, 16, 11, 45),
+    start: new Date(2024, 11, 13, 11, 0), // December 13, 2024, 11:00 AM
+    end: new Date(2024, 11, 13, 11, 45),  // December 13, 2024, 11:45 AM
   },
   {
     title: "Chemistry",
     allDay: false,
-    start: new Date(2024, 7, 16, 13, 0),
-    end: new Date(2024, 7, 16, 13, 45),
+    start: new Date(2024, 11, 16, 13, 0), // December 16, 2024, 1:00 PM
+    end: new Date(2024, 11, 16, 13, 45),  // December 16, 2024, 1:45 PM
   },
   {
     title: "History",
     allDay: false,
-    start: new Date(2024, 7, 16, 14, 0),
-    end: new Date(2024, 7, 16, 14, 45),
+    start: new Date(2024, 11, 16, 14, 0), // December 16, 2024, 2:00 PM
+    end: new Date(2024, 11, 16, 14, 45),  // December 16, 2024, 2:45 PM
   },
 ];
+
